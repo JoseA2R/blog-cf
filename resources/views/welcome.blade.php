@@ -161,10 +161,6 @@
                             </div>
                         </div>
                     </main>
-                    <form action="{{ route('test') }}" method="POST">
-                        <input type="hidden" name="test" value="">"
-                        <input type="submit" value="Submit">
-                    </form>
                     <footer class="py-16 text-center text-sm text-black dark:text-white/70">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </footer>
